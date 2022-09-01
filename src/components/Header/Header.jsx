@@ -15,7 +15,7 @@ const Header = () => {
   });
 
   return (
-    <chakra.header bg="black" color="white">
+    <chakra.header bg="black" color="white" pos="fixed" w="100%" opacity='0.9' >
       <Container maxW="container.lg">
         <HStack py='5' align='center' justify='space-between'>
 
@@ -34,7 +34,7 @@ const Header = () => {
             isDesktop ? (
               <Flex w='100%' justify='space-between'>
                 <HStack
-                  color="gray.500"
+                  color="whiteAlpha.700"
                   fontSize="18px"
                   fontWeight="bold"
                   as="nav"
