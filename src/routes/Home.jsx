@@ -1,9 +1,16 @@
-import Banner from "../components/Banner"
+import Shades from "../components/Shades";
+import Form from "../components/Form";
+import Content from "../components/Content";
+import Wrapper from "../components/Wrapper";
 
 const Home = () => {
   return (
     <>
-      <Banner />
+      <Wrapper 
+        content = {<Content />}
+        shades = {<Shades />}
+        form = {<Form />}
+      />
     </>
   )
 }
