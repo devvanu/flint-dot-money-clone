@@ -15,7 +15,7 @@ const Header = () => {
   });
 
   return (
-    <chakra.header bg="black" color="white" pos="fixed" w="100%" opacity='0.9' >
+    <chakra.header bg="black" color="white" zIndex='3' pos="fixed" w="100%" opacity='0.9' borderBottom='1px solid #564f4f' >
       <Container maxW="container.lg">
         <HStack py='5' align='center' justify='space-between'>
 
