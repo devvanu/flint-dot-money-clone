@@ -3,7 +3,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Form = () => {
   return (
-    <Stack direction="row" spacing="8" justify="space-between">
+    <Stack direction={{base: 'column', lg: 'row'}} spacing="6" justify="space-between">
         <Input
             size="lg"
             borderColor="whiteAlpha.400"

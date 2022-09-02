@@ -7,7 +7,7 @@ import NavMobile from "./NavMobile";
 
 const Header = () => {
 
-  const isDesktop = useBreakpointValue({ base: false, lg: true });
+  const isDesktop = useBreakpointValue({ base: false, xl: true });
 
   const navLinkStyles = ({ isActive }) => ({
     color: isActive ? "white" : "",

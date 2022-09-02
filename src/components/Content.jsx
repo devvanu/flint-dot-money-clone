@@ -10,13 +10,13 @@ const Content = ({details}) => {
           mb="5"
           textAlign="center"
           lineHeight="1.25"
-          fontSize="7xl"
+          fontSize={{base: '4xl', md: '5xl', lg: '7xl'}}
           letterSpacing="-1.5px"
           fontWeight="800"
         >
           {title1} <br /> {title2}
         </Heading>
-        <Text pb="10" fontSize="2xl">
+        <Text px='10' pb="10" textAlign='center' fontSize={{base: 'md', md: 'xl', lg: '2xl'}}>
           {details.text}
         </Text>
     </>
