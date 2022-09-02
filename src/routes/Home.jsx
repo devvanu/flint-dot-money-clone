@@ -4,6 +4,7 @@ import Content from "../components/Content";
 import Intro from "../components/Intro";
 
 import { contentDetails } from "../data";
+import Features from "../components/Features";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         shades = {<Shades />}
         form = {<Form />}
       />
+      <Features />
     </>
   )
 }
