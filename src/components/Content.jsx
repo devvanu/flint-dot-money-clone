@@ -1,6 +1,9 @@
 import { Heading, Text} from "@chakra-ui/react";
 
-const Content = () => {
+const Content = ({details}) => {
+  const title1 = details.title.split(' ').slice(0, 3).join(' ');
+  const title2 = details.title.split(' ').slice(3).join(' ');
+
   return (
     <>
         <Heading
@@ -11,10 +14,10 @@ const Content = () => {
           letterSpacing="-1.5px"
           fontWeight="800"
         >
-          Earn crypto every <br /> second on Flint
+          {title1} <br /> {title2}
         </Heading>
         <Text pb="10" fontSize="2xl">
-          No lock-in. No hidden fees. Only secure yields for your crypto.
+          {details.text}
         </Text>
     </>
   )
