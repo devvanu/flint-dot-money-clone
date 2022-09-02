@@ -1,6 +1,6 @@
 import { VStack, Stack} from "@chakra-ui/react";
 
-const Wrapper = (props) => {
+const Intro = (props) => {
     return (
         <Stack bg="black" pt='60px' color="white" position='relative' overflow='hidden'>
           {props.shades}
@@ -16,4 +16,4 @@ const Wrapper = (props) => {
     );
 }
 
-export default Wrapper
+export default Intro;
