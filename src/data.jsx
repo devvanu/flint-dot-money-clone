@@ -31,3 +31,10 @@ export const featureDetails = [
         'text' : 'You earn returns in the same cryptocurrency that you invest. There are no twisted terms or token rewards to keep you away from your wealth.'
     }
 ]
+
+export const partnerDetails = [
+    {
+        'title' : 'Our Partners',
+        'text' : 'On our mission to build the home for crypto natives, we have the best networks as our partners. Flint currently supports Ethereum, Solana, Tron, and Binance Smart Chain with additional networks on the way.'
+    }
+]

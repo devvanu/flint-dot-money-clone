@@ -3,6 +3,7 @@ import Content from "../components/Content";
 import Intro from "../components/Intro";
 
 import { contentDetails } from "../data";
+import Partners from "../components/Partners";
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
         content = {<Content details={contentDetails[1]} />}
         shades = {<Shades />}
       />
+      <Partners />
     </>
   )
 }
