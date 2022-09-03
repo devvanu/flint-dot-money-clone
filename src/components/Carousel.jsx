@@ -18,17 +18,20 @@ const Carousel = () => {
 
   const styles = {
     pos: 'absolute',
-    boxSize: '80px',
-    animation: `${rotate} 3s linear infinite`
+    w: '80px',
+    h: '80px',
+    maxH: '12vw',
+    maxW: '12vw',
+    animation: `${rotate} 2s linear infinite`
   }
 
   return (
     <Stack pos='absolute' left='130px' w='100%' h='50%' border='1px dashed grey' borderRadius='50% 60%' transform='rotate(10deg)' >
-        <Image sx={styles} src={ftx} top='-30px' left='55%' />
-        <Image sx={styles} src={solana} top='-35px' left='22%' />
-        <Image sx={styles} src={binance} top='35%' left='-35px' />
-        <Image sx={styles} src={coinbase} top='75%' left='20%' />
-        <Image sx={styles} src={polygon} top='80%' left='55%' />
+        <Image sx={styles} src={ftx} top='-12%' left='54%' />
+        <Image sx={styles} src={solana} top='-12%' left='22%' />
+        <Image sx={styles} src={binance} top='36%' left='-6%' />
+        <Image sx={styles} src={coinbase} top='76%' left='20%' />
+        <Image sx={styles} src={polygon} top='80%' left='56%' />
     </Stack>
   )
 }
