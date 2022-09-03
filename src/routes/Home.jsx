@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 
 import { contentDetails } from "../data";
 import Features from "../components/Features";
+import Images from "../components/Images";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Intro 
         content = {<Content details={contentDetails[0]} />}
         shades = {<Shades />}
+        images = {<Images />}
         form = {<Form />}
       />
       <Features />
