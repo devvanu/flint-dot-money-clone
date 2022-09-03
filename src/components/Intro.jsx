@@ -2,10 +2,10 @@ import { VStack, Stack} from "@chakra-ui/react";
 
 const Intro = (props) => {
     return (
-        <Stack bg="black" pt={{sm:'10px', lg: '40px'}} color="white" position='relative' overflow='hidden'>
+        <Stack bg="black" pt={{sm:' 100px', lg: '40px'}} color="white" position='relative' overflow='hidden'>
           {props.shades}
     
-          <VStack h='100vh' align="center" justify="center">
+          <VStack h={{sm: '500px', md: '100vw', lg:'100vh'}} align="center" justify="center">
             {props.content}
             
             <Stack direction="row" spacing="8" justify="space-between">
