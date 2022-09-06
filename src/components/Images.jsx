@@ -28,23 +28,27 @@ const Images = () => {
     <Stack pos="absolute" w="100vw">
       <Image
         src={image1}
+        alt='image1'
         sx={imageStyle}
         top={{ base: "120px", md: "100px", lg: "80px" }}
         left={{ base: "20px", md: "50px", lg: "130px" }}
       />
       <Image
         src={image2}
+        alt='image2'
         sx={imageStyle}
         top={{ base: "120px", md: "100px", lg: "80px" }}
         right={{ base: "20px", md: "50px", lg: "130px" }}
       />
       <Image
         src={image3}
+        alt='image3'
         sx={imageStyle}
         bottom={{ base: "-620px", md: "-600px", lg: "-580px" }}
       />
       <Image
         src={image4}
+        alt='image4'
         sx={imageStyle}
         bottom={{ base: "-620px", md: "-600px", lg: "-580px" }}
         right="0px"
